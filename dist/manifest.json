@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "BootcampZoom",
+  "version": "1.0.0",
+  "description": "Extensão para ajustar o zoom da página e facilitar a leitura.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html"
+  },
+  "permissions": ["activeTab", "tabs"]
+}
